@@ -59,7 +59,7 @@ là kiểu dữ liệu đơn giản chỉ có 2 giá trị là True or False
  * Variables là giá trị dữ liệu có thể thay đổi được trong chương trình.
  * Constants là hằng số để lưu trữ các giá trị cố định.
 
- # String funcions
+## String funcions
 * strlen($string): lấy độ dài 1 chuỗi
 VD:
 ```php
