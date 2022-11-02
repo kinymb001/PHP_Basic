@@ -377,6 +377,7 @@ echo $result;
 *   Tìm kiếm nhị phân phù hợp với mảng đã được sắp xếp Thụât toán tìm kiếm nhị phân thực hiện tìm kiếm một mảng đã sắp xếp bằng cách liên tục chia các khoảng tìm kiếm thành 1 nửa. Bắt đầu với một khoảng từ phần tử đầu mảng, tới cuối mảng. Nếu giá trị của phần tử cần tìm nhỏ hơn giá trị của phần từ nằm ở giữa khoảng thì thu hẹp phạm vi tìm kiếm từ đầu mảng tới giửa mảng và nguợc lại. Cứ thế tiếp tục chia phạm vi thành các nửa cho dến khi tìm thấy hoặc đã duyệt hết.
 *   Cài đặt:
 ```php
+// tim kiem nhi phan khu de quy
 function binary_search($array, $search)
 {
     sort($array);
@@ -401,6 +402,8 @@ function binary_search($array, $search)
     return -1;
 
 }
+
+// tim kiem nhi phan bang de quy
 function binary_search_2($array, $left, $right, $search)
 {
     if($right >$left)
